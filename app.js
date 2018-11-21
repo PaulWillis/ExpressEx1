@@ -52,7 +52,9 @@ var people = [
 app.get('/', function(req, res){
     //res.send('hello');
     //res.json(people);
-    res.render('index');//for ejs
+    res.render('index',{
+        title:'Customers'
+    });//for ejs
 })
 
 app.listen(3000, function(){
