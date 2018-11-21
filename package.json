@@ -1,0 +1,16 @@
+{
+  "name": "expressex1",
+  "version": "1.0.0",
+  "description": "node express example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.6.1",
+    "express": "*"
+  },
+  "author": "Paul Willis",
+  "license": "ISC"
+}
